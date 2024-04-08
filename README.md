@@ -1,16 +1,17 @@
-# aplikasi_patungan
+# Aplikasi Patungan
 
-A new Flutter project.
+## Deskripsi
 
-## Getting Started
+Aplikasi Patungan adalah aplikasi yang digunakan untuk split bill atau patungan. 
+Beberapa fitur yang ada dalam aplikasi ini adalah :
 
-This project is a starting point for a Flutter application.
+- Menambahkan orang
+- Memasukan daftar barang dan harganya sebelum diskon
+- Memasukan daftar barang dan harganya setelah diskon
+- Men total harga dan membaginya ke setiap orang setelah mendapat diskon
 
-A few resources to get you started if this is your first Flutter project:
+Harapannya dengan adanya aplikasi ini kita bisa patungan dengan mudah dan ga pusing ngitung harus bayar berapa.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Stack
+Flutter
+GetX
