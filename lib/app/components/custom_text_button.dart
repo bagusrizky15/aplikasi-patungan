@@ -24,7 +24,12 @@ class CustomTextButton extends StatelessWidget {
         ),
         onPressed: (){
           Get.defaultDialog(
-            title: "Petunjuk Pemakaian"
+            title: "Petunjuk Pemakaian",
+            content: Container(
+              child: Text(
+                '1.Klik (+) lalu masukan data orang\n2.Masukan nominal masing masing orang\n3.Klik Hitung'
+              ),
+            )
           );
       }, child: Text(
         "Petunjuk Pemakaian", 
